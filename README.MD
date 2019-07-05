@@ -12,7 +12,9 @@
     Allow: s3:PutObject
     
 ### Runtime
-    Node.js 8.10 / 30s / 
+    Node.js 8.10
+    Timeout 30s 
+    Memory (MB) 512
 
 ### Environment Variables
     SG_BUCKET=s3bucketname
